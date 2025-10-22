@@ -1,0 +1,49 @@
+
+
+@media (max-width: 1150px){
+    .header_filho{
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+    .header_imag{
+        display: none;
+    }
+}
+@media (max-width: 890px){
+    .links{
+        display: none;
+    }   
+    .nav{
+        position: relative;
+        text-align: center;
+        margin: 0;
+    }
+    .header_filho{
+        margin-top: 0;
+    }
+    .rodape{
+        margin-top: 40px;
+        font-size: 10px;
+    }
+}
+@media (max-width: 658px){
+
+    .secao{ 
+       flex-wrap:wrap;
+        margin: 5%;
+    }  
+    .secao_filho {
+        margin: 0; 
+        margin-left:25px;
+    }
+    .secao_cassule p{
+        margin: 0;
+        margin-left:25px;
+    }
+     .rodape{
+        margin-top: 90px;
+        font-size: 9px;
+    }
+   
+}
